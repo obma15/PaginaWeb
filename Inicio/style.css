@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+     
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background: #71B51F;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+.bloque{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.uno {
+    background: #DAF7A6;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.centrar{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+/*----------------izquierda y derecha---------------*/
+
+.izquierda, .derecha {
+    width: 48%;
+    height: auto; 
+    overflow: hidden;
+    /*border: 1px solid black;*/
+    display: inline-block;
+}
+
+.izquierda{
+    float: left;
+    text-align: center;
+}
+
+
+.titulo{
+    color: black;
+    font-size: 40px;
+}
+
+.text{
+    color: black; 
+    font-weight: 300;
+}
+
+.boton{
+    padding: 17px 35px;
+    background: #71B51F;
+    border-radius: 7px;
+    border: 0px;
+
+}
+
+.boton:hover{
+    color: gray;
+}
+
+.derecha{
+    float: center;
+    
+}
+
+.imguno{
+    width: 90%;
+}
+
+/*----------------BLOQUE DOS---------------*/
+
+ .dos{
+    padding: 50px 0px;
+     
+ }
+
+ .dos .derecha{
+    text-align: center;
+ }
+
+ .imgdos {
+    width: 90%;
+ }
+
+ .dos .derecha h1 {
+    color: gray;
+    font-size: 40px;
+ }
+
+ .dos .derecha p {
+    color: gray;
+    font-weight: 300;
+ }
+
+ .opciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ .opcion {
+    width: 45%;
+    border: solid 1px gray;
+    margin-bottom: 30px;
+    padding: 7px;
+    border-left: 4px solid orangered;
+    border-radius: 7px;
+
+ }
+
+ .opcion:hover{
+    color: orangered;
+ }
+
+ .opcion .imgexp {
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+ }
+
+ .textoopciones{
+    margin-top: 15px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ 
